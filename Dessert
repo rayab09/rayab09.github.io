@@ -3,22 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Les desserts de mamie Chantal</title>
     <style>
         body {
-            background-color:#3357FF;
+            background-color: #3357FF;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            font-size: 24px;
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            display: block;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 90%;
+            height: auto;
+            margin: 15px 0;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
     <h1>Les desserts de mamie Chantal</h1>
-    <a href="Tiramisu.html"> Tiramisu</a>
-    <br>
-    <img src="Images/IMG_2310.jpeg" alt="Tiramisu" width="200" height="auto"> 
-    <br>
-    <a href="Cookies.html"> Cookies</a>
-    <br>
-    <img src="Images/IMG_2311.jpeg" alt="Cookies" width="200" height="auto">
+
+    <a href="Tiramisu.html">Tiramisu</a>
+    <img src="Images/IMG_2310.jpeg" alt="Delicious homemade tiramisu" width="200" height="auto"> 
+
+    <a href="Cookies.html">Cookies</a>
+    <img src="Images/IMG_2311.jpeg" alt="Freshly baked cookies" width="200" height="auto">
 </body>
 </html>
