@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Les desserts de mamie Chantal</title>
+    <style>
+        body {
+            background-color: #eb73bd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Les desserts de mamie Chantal</h1>
+    <a href="Tiramisu.html"> Tiramisu</a>
+    <br>
+    <img src="Images/IMG_2307.jpeg" alt="Desserts" width="200" height="auto"> 
+    <br>
+    <a href="Cookies.html"> Cookies</a>
+    <br>
+    <img src="Images/pink_lemonade_margarita-rec.jpg" alt="Boissons" width="200" height="auto">
+</body>
+</html>
