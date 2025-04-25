@@ -8,27 +8,51 @@
     <style>
         body {
             background-color: #eb73bd;
-        }
+        galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+        bloc {
+    text-align: center;
+}
+
+        img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
     </style>
 </head>
 <body>
     <h1>Bienvenue dans le carnet de recettes de mamie Chantal !</h1>
     <h2>Que souhaitez-vous cuisiner aujourd'hui ?</h2>
-    <a href="Dessert.html"> Desserts</a>
-    <br>
-    <img src="Images/IMG_2307.jpeg" alt="Desserts" width="200" height="auto"> 
-    <br>
-    <a href="Boisson.html"> Boissons</a>
-    <br>
-    <img src="Images/pink_lemonade_margarita-rec.jpg" alt="Boissons" width="200" height="auto">
-    <br>
-    <a href="Entrée.html"> Entrées<a/>
-    <br>
-    <img src="Images/IMG_2309.jpeg" alt="Entrées" width="200" height="auto">
-    <br>
-    <a href="Plat.html"> Plats</a> 
-    <br>
-    <img src="Images/IMG_2312.jpeg" alt="Plats" width="200" height="auto">
+   <div class="galerie">
+    <div class="bloc">
+        <a href="Dessert.html">Desserts</a><br>
+        <img src="Images/IMG_2307.jpeg" alt="Photo de desserts faits maison">
+    </div>
+
+    <div class="bloc">
+        <a href="Boisson.html">Boissons</a><br>
+        <img src="Images/pink_lemonade_margarita-rec.jpg" alt="Photo de boisson rafraîchissante">
+    </div>
+
+    <div class="bloc">
+        <a href="Entrée.html">Entrées</a><br>
+        <img src="Images/IMG_2309.jpeg" alt="Photo d'entrées appétissantes">
+    </div>
+
+    <div class="bloc">
+        <a href="Plat.html">Plats</a><br>
+        <img src="Images/IMG_2312.jpeg" alt="Photo de plats savoureux">
+    </div>
+</div>
+
 </body>
 </html>
 
