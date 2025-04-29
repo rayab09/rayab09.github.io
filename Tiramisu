@@ -1,51 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recette de Tiramisu - Les desserts de mamie Chantal</title>
-    <style>
-        body {
-            background-color: #fff8e1;
-            font-family: Arial, sans-serif;
-            color: #333;
-            padding: 20px;
-            text-align: center;
-        }
-
-        h1 {
-            color: #c47c42;
-        }
-
-        h2 {
-            color: #d57c4f;
-        }
-
-        img {
-            width: 300px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-
-        ul, ol {
-            max-width: 600px;
-            margin: 20px auto;
-            text-align: left;
-            font-size: 1.1em;
-        }
-
-        a {
-            color: #c47c42;
-            font-weight: bold;
-            text-decoration: none;
-            margin-top: 20px;
-            display: inline-block;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 <body>
 
