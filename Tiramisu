@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recette de Tiramisu - Les desserts de mamie Chantal</title>
+    <style>
+        body {
+            background-color: #fff8e1;
+            font-family: Arial, sans-serif;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
 
+        h1 {
+            color: #c47c42;
+        }
+
+        h2 {
+            color: #d57c4f;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        ul, ol {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: left;
+            font-size: 1.1em;
+        }
+
+        a {
+            color: #c47c42;
+            font-weight: bold;
+            text-decoration: none;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Recette du Tiramisu</h1>
+
+    <img src="Images/IMG_2310.jpeg" alt="Tiramisu">
+
+    <h2>Ingrédients :</h2>
+    <ul>
+        <li>3 œufs</li>
+        <li>100 g de sucre</li>
+        <li>250 g de mascarpone</li>
+        <li>Biscuits à la cuillère</li>
+        <li>Café fort refroidi</li>
+        <li>Cacao en poudre non sucré</li>
+    </ul>
+
+    <h2>Préparation :</h2>
+    <ol>
+        <li>Séparez les blancs des jaunes.</li>
+        <li>Fouettez les jaunes avec le sucre jusqu’à ce que le mélange blanchisse.</li>
+        <li>Ajoutez le mascarpone et mélangez bien jusqu’à obtention d’une crème lisse.</li>
+        <li>Montez les blancs en neige bien ferme et incorporez-les délicatement à la préparation.</li>
+        <li>Trempez les biscuits à la cuillère dans le café froid, puis disposez-les dans le fond d’un plat.</li>
+        <li>Recouvrez les biscuits de la préparation au mascarpone.</li>
+        <li>Répétez l’opération (biscuits + crème) pour une ou deux couches supplémentaires.</li>
+        <li>Laissez reposer au réfrigérateur pendant au moins 4 heures, voire toute une nuit.</li>
+        <li>Avant de servir, saupoudrez généreusement de cacao en poudre.</li>
+    </ol>
+
+    <a href="index.html">Retour à l'accueil</a>
+
+</body>
+</html>
