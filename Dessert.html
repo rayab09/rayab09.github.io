@@ -1,26 +1,61 @@
-
 <!DOCTYPE html> 
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Les desserts de mamie Chantal</title>
     <style>
         body {
-            background-color:#3357FF;
+            background-color: #3357FF;
+            font-family: Arial, sans-serif;
+            text-align: center; /* Centrer le contenu */
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .desserts-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Espacement entre les images */
+            margin-top: 20px;
+        }
+
+        .desserts-container img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px; /* Pour un effet arrondi sur les images */
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin-top: 10px;
+            display: block; /* Les liens sont affichés sous les images */
+        }
+
+        a:hover {
+            color: #FFDC00; /* Changer la couleur au survol */
         }
     </style>
 </head>
 <body>
     <h1>Les desserts de mamie Chantal</h1>
-    <a href="Tiramisu.html"> Tiramisu</a>
-    <br>
-    <img src="Images/IMG_2310.jpeg" alt="Tiramisu" width="200" height="auto"> 
-    <br>
-    <a href="Cookies.html"> Cookies</a>
-    <br>
-    <img src="Images/IMG_2311.jpeg" alt="Cookies" width="200" height="auto">
+
+    <div class="desserts-container">
+        <div>
+            <a href="Tiramisu.html">Tiramisu</a>
+            <img src="Images/IMG_2310.jpeg" alt="Tiramisu">
+        </div>
+
+        <div>
+            <a href="Cookies.html">Cookies</a>
+            <img src="Images/IMG_2311.jpeg" alt="Cookies">
+        </div>
+    </div>
 </body>
 </html>
+
 
