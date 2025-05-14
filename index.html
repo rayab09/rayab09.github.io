@@ -53,6 +53,10 @@
 <body>
     <h1>Bienvenue dans le carnet de recettes de mamie Chantal !</h1>
     <h2>Que souhaitez-vous cuisiner aujourd'hui ?</h2>
+    
+    <div id="astuce-box">
+        <p id="astuce"></p>
+    </div>
 
     <div class="galerie">
         <div class="bloc">
@@ -79,6 +83,18 @@
             <img src="Images/IMG_2312.jpeg" alt="Plats">
         </div>
     </div>
+ <script>
+        const astuces = [
+            "Ajoutez une pincée de sel dans le café pour réduire l’amertume.",
+            "Pour éviter que les oignons ne piquent les yeux, coupez-les près d’un bol d’eau.",
+            "Congelez les herbes fraîches dans de l’huile d’olive pour les conserver plus longtemps.",
+            "Gardez vos biscuits croustillants en ajoutant un morceau de sucre dans la boîte.",
+            "Un peu de vinaigre dans l’eau de cuisson évite que les œufs craquent.",
+            "Zestez les agrumes avant de les presser, vous ne perdrez rien !"
+        ];
+        const astuceDuJour = astuces[Math.floor(Math.random() * astuces.length)];
+        document.getElementById("astuce").innerText = `💡 Astuce de mamie : ${astuceDuJour}`;
+    </script>
 </body>
 </html>
 
