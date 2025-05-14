@@ -29,7 +29,16 @@
         <li>Ajoutez le lait doucement sur le matcha.</li>
         <li>Mélangez doucement et servez chaud ou avec des glaçons pour une version glacée.</li>
     </ol>
+   <button onclick="recetteCuisinee()">J’ai cuisiné cette recette</button>
+    <p id="messageRecette" style="color: green; font-weight: bold; display: none; margin-top: 10px;"></p>
 
+    <script>
+        function recetteCuisinee() {
+            const message = document.getElementById("messageRecette");
+            message.textContent = "Bravo, mamie serait fière de toi ! 🎉";
+            message.style.display = "block";
+        }
+    </script>
     <a href="Boisson.html">Retour à l'accueil</a>
 
 </body>
