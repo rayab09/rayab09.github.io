@@ -2,3 +2,7 @@ img {
     width: 300px; 
     height: auto;
 }
+
+h1 {
+    font-family: 'Brush Script MT', cursive;
+}
