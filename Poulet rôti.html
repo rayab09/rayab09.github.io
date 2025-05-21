@@ -33,7 +33,16 @@
         <li>Vérifiez la cuisson en piquant la cuisse : le jus qui s’en écoule doit être clair.</li>
         <li>Laissez reposer 10 minutes avant de découper et servir.</li>
     </ol>
+  <button onclick="recetteCuisinee()">J’ai cuisiné cette recette</button>
+    <p id="messageRecette" style="color: green; font-weight: bold; display: none; margin-top: 10px;"></p>
 
+    <script>
+        function recetteCuisinee() {
+            const message = document.getElementById("messageRecette");
+            message.textContent = "Bravo, mamie serait fière de toi ! 🎉";
+            message.style.display = "block";
+        }
+    </script>
     <a href="Plat.html">Retour à l'accueil</a>
 
 </body>
