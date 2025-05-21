@@ -34,7 +34,16 @@
         <li>Laissez tiédir avant de démouler.</li>
         <li>Vous pouvez saupoudrer de sucre glace ou napper de glaçage vanille selon vos envies.</li>
     </ol>
+  <button onclick="recetteCuisinee()">J’ai cuisiné cette recette</button>
+    <p id="messageRecette" style="color: green; font-weight: bold; display: none; margin-top: 10px;"></p>
 
+    <script>
+        function recetteCuisinee() {
+            const message = document.getElementById("messageRecette");
+            message.textContent = "Bravo, mamie serait fière de toi ! 🎉";
+            message.style.display = "block";
+        }
+    </script>
     <a href="Dessert.html">Retour à l'accueil</a>
 
 </body>
