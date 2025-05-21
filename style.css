@@ -30,6 +30,10 @@ button:hover {
     background-color: #c17900;  
 }
 
+button:active {
+    transform: scale(0.98);
+}
+
 label {
     cursor: pointer;
     font-weight: 600;
