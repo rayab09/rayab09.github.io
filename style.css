@@ -38,3 +38,12 @@ label {
     cursor: pointer;
     font-weight: 600;
 }
+
+h2 {
+    font-family: 'Georgia', serif;  /* police élégante et lisible */
+    color: #a0522d;                 /* une couleur marron douce */
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
