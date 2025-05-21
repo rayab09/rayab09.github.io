@@ -6,3 +6,31 @@ img {
 h1 {
     font-family: 'Brush Script MT', cursive;
 }
+img {
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #0649b4;
+}
+
+button {
+    background-color: #f9a825; 
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;         
+    border: none;
+    border-radius: 8px;         
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c17900;  
+}
+
+label {
+    cursor: pointer;
+    font-weight: 600;
+}
