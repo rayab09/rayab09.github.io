@@ -34,7 +34,16 @@
         <li>Versez les œufs et les fromages dans les pâtes, en remuant rapidement pour que la chaleur des pâtes cuise légèrement les œufs sans les brouiller. Si la sauce semble trop épaisse, ajoutez un peu d'eau de cuisson réservée pour l'adoucir.</li>
         <li>Servez immédiatement avec un peu de poivre noir supplémentaire et de fromage râpé si vous le souhaitez.</li>
     </ol>
+  <button onclick="recetteCuisinee()">J’ai cuisiné cette recette</button>
+    <p id="messageRecette" style="color: green; font-weight: bold; display: none; margin-top: 10px;"></p>
 
+    <script>
+        function recetteCuisinee() {
+            const message = document.getElementById("messageRecette");
+            message.textContent = "Bravo, mamie serait fière de toi ! 🎉";
+            message.style.display = "block";
+        }
+    </script>
     <a href="Plat.html">Retour à l'accueil</a>
 
 </body>
