@@ -29,7 +29,16 @@
         <li>Dans un bol, mélangez l’huile d’olive, le jus de citron, la ciboulette ciselée, du sel et du poivre pour faire la vinaigrette.</li>
         <li>Disposez les asperges et les fèves dans les assiettes, arrosez de vinaigrette citronnée, puis servez bien frais.</li>
     </ol>
+  <button onclick="recetteCuisinee()">J’ai cuisiné cette recette</button>
+    <p id="messageRecette" style="color: green; font-weight: bold; display: none; margin-top: 10px;"></p>
 
+    <script>
+        function recetteCuisinee() {
+            const message = document.getElementById("messageRecette");
+            message.textContent = "Bravo, mamie serait fière de toi ! 🎉";
+            message.style.display = "block";
+        }
+    </script>
     <a href="Entrée.html">Retour aux entrées</a>
 
 </body>
